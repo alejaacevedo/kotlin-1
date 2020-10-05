@@ -887,7 +887,6 @@ internal class CacheBuilder(val project: Project, val binary: NativeBinary) {
     }
 }
 
-@CacheableTask
 open class CInteropProcess : DefaultTask() {
 
     @Internal
